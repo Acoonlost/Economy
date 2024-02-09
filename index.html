@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DivideGastos</title>
+</head>
+<body>
+    <div id="app">
+        <h1>DivideGastos</h1>
+        <div id="expenses">
+            <label for="totalAmount">Total Gasto:</label>
+            <input type="number" id="totalAmount" placeholder="Insira o total gasto">
+            <button onclick="addExpense()">Adicionar Despesa</button>
+            <div id="expenseList"></div>
+            <button onclick="calculatePercentages()">Calcular Percentagens</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
